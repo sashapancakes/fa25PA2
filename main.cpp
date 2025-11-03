@@ -108,7 +108,7 @@ int buildEncodingTree(int nextFree) {
         //set left/right pointers
         leftArr[parent] = idx1;
         rightArr[parent] = idx2;
-        charArr[parent] = '*';  // internal node marker
+        charArr[parent] = '*';  //internal node marker
 
         //push new parent index back into the heap
         heap.push(parent, weightArr);
